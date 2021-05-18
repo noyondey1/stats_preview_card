@@ -1,0 +1,110 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-background: hsl(233, 47%, 7%);
+    --card-background: hsl(244, 38%, 16%);
+    --accent: hsl(277, 64%, 61%);
+    --main-heading: hsl(0, 0%, 100%);
+    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --stat-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--main-background);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.card{
+    background-color: var(--card-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 24% 6.5%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.image-container{
+    background-color: var(--accent);
+    line-height: 0;
+}
+
+.image-container img{
+    mix-blend-mode: multiply;
+    max-width: 100%;
+}
+
+.desktop-img{
+    display: none;
+}
+
+.inner-container{
+    padding: 11% 10%;
+}
+
+.inner-container h1{
+    color: var(--main-heading);
+    font-size: 2.7rem;
+}
+
+.inner-container span{
+    color: var(--accent);
+}
+
+.inner-container p{
+    color: var(--main-paragraph);
+    margin-top: 6.5%;
+}
+
+.stats-container{
+    margin-top: 10%;
+    color: white;
+}
+
+.stats{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.stats .value{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.stats .lower{
+    text-transform: lowercase;
+}
+
+.stats .type{
+    color: var(--stat-heading);
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+/* Footer */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
