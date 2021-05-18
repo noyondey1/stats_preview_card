@@ -20,7 +20,7 @@ html {
     --stat-heading: hsla(0, 0%, 100%, 0.6);
 }
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     max-width: 1440px;
     margin: 0 auto;
@@ -30,7 +30,7 @@ body{
     line-height: 1.5;
 }
 
-.card{
+.card {
     background-color: var(--card-background);
     display: flex;
     flex-direction: column;
@@ -41,59 +41,58 @@ body{
     overflow: hidden;
 }
 
-.image-container{
+.image-container {
     background-color: var(--accent);
     line-height: 0;
 }
 
-.mobile-img img{
+.mobile-img img {
     mix-blend-mode: multiply;
     max-width: 100%;
-    opacity: 0.8;
 }
 
-.desktop-img{
+.desktop-img {
     display: none;
 }
 
-.inner-container{
+.inner-container {
     padding: 11% 10%;
 }
 
-.inner-container h1{
+.inner-container h1 {
     color: var(--main-heading);
     font-size: 2.7rem;
 }
 
-.inner-container span{
+.inner-container span {
     color: var(--accent);
 }
 
-.inner-container p{
+.inner-container p {
     color: var(--main-paragraph);
     margin-top: 6.5%;
 }
 
-.stats-container{
+.stats-container {
     margin-top: 10%;
     color: white;
 }
 
-.stats{
+.stats {
     text-transform: uppercase;
     margin-bottom: 2rem;
 }
 
-.stats .value{
+.stats .value {
     font-size: 2rem;
     font-weight: bold;
 }
 
-.stats .lower{
+.stats .lower {
     text-transform: lowercase;
 }
 
-.stats .type{
+.stats .type {
     color: var(--stat-heading);
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
