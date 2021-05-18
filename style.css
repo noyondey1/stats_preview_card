@@ -46,7 +46,7 @@ body {
     line-height: 0;
 }
 
-.mobile-img img {
+.image-container .mobile-img{
     mix-blend-mode: multiply;
     max-width: 100%;
 }
