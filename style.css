@@ -49,6 +49,7 @@ body{
 .image-container img{
     mix-blend-mode: multiply;
     max-width: 100%;
+    opacity: 0.8;
 }
 
 .desktop-img{
