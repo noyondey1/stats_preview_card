@@ -46,7 +46,7 @@ body{
     line-height: 0;
 }
 
-.image-container img{
+.mobile-img img{
     mix-blend-mode: multiply;
     max-width: 100%;
     opacity: 0.8;
